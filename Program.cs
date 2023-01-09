@@ -12,9 +12,6 @@ Write("массив, где длина строк <=3: ");
 PrintArray(array2);
 
 
-
-
-
 string[] GetArrayFromString(string arrayStr)
 {
     string[] arS = arrayStr.Split(' ', StringSplitOptions.RemoveEmptyEntries);
